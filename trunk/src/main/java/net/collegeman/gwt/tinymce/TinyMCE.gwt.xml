@@ -1,0 +1,9 @@
+<module>
+
+	<inherits name='com.google.gwt.user.User'/>
+	<stylesheet src='TinyMCE.css' />
+	<script src='tiny_mce/tiny_mce_src.js' />
+	 
+	<entry-point class='net.collegeman.gwt.tinymce.client.TinyMCE'/>
+	
+</module>

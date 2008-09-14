@@ -1,0 +1,3 @@
+#!/bin/sh
+APPDIR=`dirname $0`;
+java -XstartOnFirstThread -Xmx256M -cp "$APPDIR/src:$APPDIR/bin:/Users/aaron/Library/gwt-mac-1.5.2/gwt-user.jar:/Users/aaron/Library/gwt-mac-1.5.2/gwt-dev-mac.jar" com.google.gwt.dev.GWTShell -out "$APPDIR/www" "$@" net.collegeman.gwt.tinymce.TinyMCE/TinyMCE.html;
